@@ -1,5 +1,8 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Poiret+One&display=swap');
+
 /* 
 
     You can write your own styles here...
@@ -11,3 +14,77 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body { background-color: rgb(209, 208, 208);}
+.formato {
+    margin-top: 0px;
+    text-align: center;
+}
+
+h1{
+     color: rgb(211, 99, 146); 
+    font-family: 'Gruppo', cursive;
+    font-family: 'Poiret One', cursive;
+     font-size: 84px;     
+     padding-top: 20px; 
+     padding-bottom: 20px;
+}
+
+.icons {
+
+
+align-items: center;
+font-size: 24px;
+position: relative;
+
+}
+
+.delete-icon {
+
+margin-right: 5px;
+color: #fff;
+position: relative;
+
+
+}
+
+
+.todo-row {
+    display: inline-flex;
+   background-color:white;
+   width: 60%;
+   border: 2px solid;
+   border-color: grey;
+   border-top-width: 0px;
+   justify-content: space-between;
+   
+}
+
+.todo-rowDiv {
+    display: inline-flex;
+   background-color:white;
+   width: 60%;
+   border-color: black;
+}
+
+
+.Formulario{
+color:red;
+
+
+}
+.Formulario-input {
+padding: 14px 32px 14px 16px;
+border-radius: 4px 0 0 4px;
+border: 2px solid #5d0cff;
+outline: none;
+width: 320px;
+background: transparent;
+color: #fff;
+
+}
+
+.Formulario-input::placeholder {
+
+color: #9e2020;
+
+}
